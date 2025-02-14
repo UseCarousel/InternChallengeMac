@@ -9,7 +9,7 @@ Time Limit: 48 hours
 
 ### Technical Stack
 - Language: Python, TypeScript, or C# (note: C# may have limitations on MacOS)
-- LLM Integration: OpenAI API (key will be provided)
+- LLM Integration: Claude (key will be provided)
 - Platform: MacOS Excel
 
 ### Core Features (Required)
@@ -33,31 +33,37 @@ Choose any of these to implement based on your time and interests. You are NOT e
 
 1. Formatting
    - Cell colors, font sizes, and styles
-   - Context-aware formatting (e.g., coloring Pokemon types appropriately)
+   - Context-aware formatting
    - Borders and layout enhancement
+     
+2. Streaming Command Execution
 
-2. Excel-Integrated UI
+ - Implement progressive execution of LLM tool calls
+ - Execute each complete function call as soon as it's received, rather than waiting for the entire response
+ - Create a more interactive experience where users see changes happening in real-time
+ - Note: Focus on tool-call level streaming rather than character-by-character update
+
+3. Excel-Integrated UI
    - Task pane or modal dialog within Excel
    - Real-time feedback
    - Command history
 
-3. Contextual Awareness
+4. Contextual Awareness
    - Support for multiple sequential commands
    - Ability to reference and modify existing content
    - Understanding of current worksheet context
 
-4. Data Visualization
+5. Data Visualization
    - Basic chart generation
    - Chart customization
    - Multiple chart type support
 
-5. Innovation
+6. Innovation
    - Feel free to add features you think would be valuable!
 
-### Technical Considerations
-- Consider exploring beyond the standard Office JS API
-- Apple Script integration is welcomed
-- Direct XML manipulation is an advanced option
+### Possible Technical Considerations (All optional - use whichever techincal intergations you'd like)
+- We reccomend checking out the JS for Excel API by microsoft. This should have some basic functionality
+- If you want to go above and beyond that, you could consider Applescripts, Direct XML editing, or any other technique you can find. 
 - Any successful implementation of Excel features not documented in the standard API will be viewed very positively
 
 ## Getting Started
@@ -83,7 +89,7 @@ Create a clear project structure that demonstrates good code organization. Consi
 ### Submission Guidelines
 1. Create a new private repository using this template ("Use this template" button on GitHub)
 2. Name your repository: `excel-challenge-[YourName]`
-3. Add [your GitHub username] as a collaborator
+3. Add juderzzo as a collaborator
 4. Complete your implementation
 5. Ensure your repository includes:
    - Clear documentation on how to run your solution
@@ -101,14 +107,15 @@ Your solution should be runnable with minimal setup. Include clear instructions 
 4. Example commands/usage
 
 ## Evaluation Criteria
-- Functionality of required features
-- Code quality and organization
-- Problem-solving approach
-- Documentation quality
-- Handling of edge cases
-- Creative solutions to API limitations
+The most important thing here is just the core functionality working. While we will be very impressed on the completion of any of the optional features, it is much better to have the core features working well, than have many features working at 60%. However, all the below will be considered: 
+   - Functionality of required features
+   - Code quality and organization
+   - Problem-solving approach
+   - Documentation quality
+   - Handling of edge cases
+   - Creative solutions to API limitations
 
-Remember: This is an open-ended challenge. While there are required elements, how you approach them and what additional features you choose to implement is up to you. We're interested in seeing your problem-solving process and technical creativity.
+Remember: This is an open-ended challenge. You are encouraged to use all available resources (the internet, other git repos, AI, whatever you think will help you). While there are required elements, how you approach them and what additional features you choose to implement is up to you. We're interested in seeing your problem-solving process and technical creativity.
 
 ## Notes
 - You are not expected to implement all optional features
@@ -118,6 +125,6 @@ Remember: This is an open-ended challenge. While there are required elements, ho
 - If you run into API limitations, document your workarounds
 
 ## Questions
-If you have technical questions during the challenge, please reach out to [Contact Information].
+Feel free to reach out as often as you'd like to jude@usecarousel.com. Questions are encouraged, and will be responded to. 
 
 Good luck!
