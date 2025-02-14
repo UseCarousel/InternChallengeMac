@@ -24,7 +24,7 @@ Time Limit: 48 hours
    - Should handle both data input and formula generation
 
 3. Command Interface
-   - Minimum: Terminal-based or local web interface for natural language input
+   - Minimum: Terminal-based or local web interface/taskpane for natural language input
    - Must provide clear feedback on command execution
    - Should handle basic error cases gracefully
 
@@ -62,7 +62,7 @@ Choose any of these to implement based on your time and interests. You are NOT e
    - Feel free to add features you think would be valuable!
 
 ### Possible Technical Considerations (All optional - use whichever techincal intergations you'd like)
-- We recommend checking out the JS for Excel API by microsoft. This should have some basic functionality
+- We recommend checking out the JS for Excel API by microsoft. This should have some basic functionality and will create a taskpane for you to interface with your data. It is linked [here](https://learn.microsoft.com/en-us/office/dev/add-ins/reference/overview/excel-add-ins-reference-overview)
 - If you want to go above and beyond that, you could consider Applescripts, Direct XML editing, or any other technique you can find. 
 - Any successful implementation of Excel features not documented in the standard API will be viewed very positively
 
@@ -107,7 +107,7 @@ Your solution should be runnable with minimal setup. Include clear instructions 
 4. Example commands/usage
 
 ## Evaluation Criteria
-The most important thing here is just the core functionality working. While we will be very impressed on the completion of any of the optional features, it is much better to have the core features working well, than have many features working at 60%. However, all the below will be considered: 
+The most important criteria to consider is the functionality of the features you'd include. A project with only the required functionality working at 95% is a better submission that a project with all of the optional functionality working at 50%. While it might be tough to eliminate every single bug, we will first consider the robustness of any features before evaluating the breadth of optional implementations. This includes: 
    - Functionality of required features
    - Code quality and organization
    - Problem-solving approach
