@@ -38,10 +38,10 @@ Choose any of these to implement based on your time and interests. You are NOT e
      
 2. Streaming Command Execution
 
- - Implement progressive execution of LLM tool calls
- - Execute each complete function call as soon as it's received, rather than waiting for the entire response
- - Create a more interactive experience where users see changes happening in real-time
- - Note: Focus on tool-call level streaming rather than character-by-character update
+   - Implement progressive execution of LLM tool calls
+   - Execute each complete function call as soon as it's received, rather than waiting for the entire response
+   - Create a more interactive experience where users see changes happening in real-time
+   - Note: Focus on tool-call level streaming rather than character-by-character update
 
 3. Excel-Integrated UI
    - Task pane or modal dialog within Excel
