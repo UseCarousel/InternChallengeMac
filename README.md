@@ -14,14 +14,13 @@ Time Limit: 48 hours
 
 ### Core Features (Required)
 1. Natural Language Table Generation
-   - Must handle non-numerical data (e.g., "Create a table of fire type pokemon")
-   - Minimum table size support: 5x10
-   - Maximum table size will be tested up to 10x10
+   - Must be able to create tables of strings (e.g., "Create a table of fire type pokemon" would yield a table with their evolves and abilities)
+   - Minimum table size support: 4x5
 
 2. Formula Integration
    - Must support basic Excel formulas
    - Example: "Create a table of monthly temperatures and calculate the average"
-   - Should handle both data input and formula generation
+   - Should handle both data input and formula generation at the end
 
 3. Command Interface
    - Minimum: Terminal-based or local web interface/taskpane for natural language input
