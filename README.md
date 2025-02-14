@@ -62,7 +62,7 @@ Choose any of these to implement based on your time and interests. You are NOT e
    - Feel free to add features you think would be valuable!
 
 ### Possible Technical Considerations (All optional - use whichever techincal intergations you'd like)
-- We reccomend checking out the JS for Excel API by microsoft. This should have some basic functionality
+- We recommend checking out the JS for Excel API by microsoft. This should have some basic functionality
 - If you want to go above and beyond that, you could consider Applescripts, Direct XML editing, or any other technique you can find. 
 - Any successful implementation of Excel features not documented in the standard API will be viewed very positively
 
