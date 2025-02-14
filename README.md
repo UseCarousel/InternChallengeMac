@@ -9,7 +9,7 @@ Time Limit: 48 hours
 
 ### Technical Stack
 - Language: Python, TypeScript, or C# (note: C# may have limitations on MacOS)
-- LLM Integration: Claude (key will be provided)
+- LLM Integration: Claude (key will be provided). Documentation [here](https://docs.anthropic.com/en/api/models-list) and tool calling [here](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
 - Platform: MacOS Excel
 
 ### Core Features (Required)
