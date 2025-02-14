@@ -78,7 +78,7 @@ Choose any of these to implement based on your time and interests. You are NOT e
 1. Fork this repository
 2. Create a new branch with your name: `firstname-lastname`
 3. Install required dependencies (document in your README)
-4. Request OpenAI API key from the hiring team
+4. Request Claude API key from jude@usecarousel.com
 
 ### Project Structure
 Create a clear project structure that demonstrates good code organization. Consider:
